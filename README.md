@@ -1,6 +1,5 @@
 DPSleep Pipeline Step #5 (sync - synchronizing the phone and actigraphy data)
 =========
-[![build status](https://ncfcode.rc.fas.harvard.edu/phoenix/sync/badges/master/build.svg)](https://ncfcode.rc.fas.harvard.edu/phoenix/sync/commits/master)
 
 ## Table of contents
 1. [Requirements](#requirements)
@@ -18,18 +17,9 @@ To run the sync pipeline, users may choose one of the following options:
 
 To install Stopwatch on your system, run the following commands:
 ```bash
-git clone git@ncfcode.rc.fas.harvard.edu:phoenix/sync .
+git clone git@github.com:harvard-nrg/dpsleep-sync.git 
 cd sync
 pip install -r requirements.txt
-```
-
-##### Option 2 - Module Load (Within NCF only)
-
-To load SYNC module on NCF without an installation:
-```bash
-module load miniconda3
-module load matlab/R2017a-fasrc01
-module load sync/master-ncf
 ```
 
 ### Usage examples
