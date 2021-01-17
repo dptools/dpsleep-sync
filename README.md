@@ -3,17 +3,20 @@ DPSleep Pipeline Step #5 (sync - synchronizing the phone and actigraphy data)
 
 ## Table of contents
 1. [Requirements](#requirements)
-2. [Usage examples](#usage-examples)
+2. [Installation](#installation)
+3. [Usage examples](#usage-examples)
 
 ### Requirements
 
-- You can run this step imediately after "act" step without the phone data
+- You can run this step imediately after "dpsleep-act" step even without having the phone data
 
 - The output is saved in processed/mtl5
 
+- After this step, you should run dpsleep-qcact pipeline.
+
 To run the sync pipeline, users may choose one of the following options:
 
-##### Option 1 - Installation
+### Installation
 
 To install Stopwatch on your system, run the following commands:
 ```bash
