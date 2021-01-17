@@ -14,11 +14,10 @@ DPSleep Pipeline Step #5 (sync - synchronizing the phone and actigraphy data)
 
 - After this step, you should run dpsleep-qcact pipeline.
 
-To run the sync pipeline, users may choose one of the following options:
 
 ### Installation
 
-To install Stopwatch on your system, run the following commands:
+To install dpsleep-sync on your system, run the following commands:
 ```bash
 git clone git@github.com:harvard-nrg/dpsleep-sync.git 
 cd sync
